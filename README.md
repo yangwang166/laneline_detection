@@ -67,6 +67,7 @@ def draw_lines2(img, lines, color=[255, 0, 0], thickness=4):
     x_max = img.shape[1]
     y_top = 320
 
+    if lines is Null: return
     for line in lines:
         for x1, y1, x2, y2 in line:
             if (y2 - y1) * (x2 - x1) == 0:
