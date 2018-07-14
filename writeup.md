@@ -67,6 +67,7 @@ def draw_lines2(img, lines, color=[255, 0, 0], thickness=4):
     x_max = img.shape[1]
     y_top = 320
 
+    if lines is Null: return
     for line in lines:
         for x1, y1, x2, y2 in line:
             if (y2 - y1) * (x2 - x1) == 0:
@@ -114,10 +115,10 @@ def draw_lines2(img, lines, color=[255, 0, 0], thickness=4):
 
 
 Here is the video:
-* Before Hough Transformation: https://youtu.be/AboEBEojd_o
-* After Hough Transformation1: https://youtu.be/ZQN0ElUkr3Q
-* After Hough Transformation2: https://youtu.be/_J2n1MIbmoI
-* Final Challenge: https://youtu.be/YYiSf3Gug_M
+* Before Hough Transformation: https://youtu.be/rwV12XTlC2M
+* After Hough Transformation1: https://youtu.be/lKioHvaOwVw 
+* After Hough Transformation2: https://youtu.be/nIZe8DGnJq0
+* Final Challenge: https://youtu.be/C36vlHwKwa4
 
 
 ### 2. Identify potential shortcomings with your current pipeline
