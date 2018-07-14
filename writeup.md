@@ -130,3 +130,5 @@ One potential shortcoming would be what would happen when the camera is placed a
 ### 3. Suggest possible improvements to your pipeline
 
 A possible improvement would be to dynamically update the region of interest. And if the lane line is missing or not detected, we can guess the line based on previous observation. And also choose another colour space instead of RGB maybe useful to ease the bad light condition.
+
+Yang
