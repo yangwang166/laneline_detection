@@ -10,13 +10,13 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[origin]: images/origin_image.png "Origin Image"
-[gray_scale]: images/gray_scale.png "Grayscale"
-[blur]: images/blur.png "Blur"
-[canny]: images/canny.png "Canny Transformation"
-[roi]: images/roi.png "Region of Interest"
-[after_roi]: images/after_roi.png "Apply Region of Interest"
-[hough]: images/hough.png "Hough Transformation"
+[origin]: http://chuantu.biz/t6/348/1532625928x-1404829133.png "Origin Image"
+[gray_scale]: http://chuantu.biz/t6/348/1532625963x-1404829133.png "Grayscale"
+[blur]: http://chuantu.biz/t6/348/1532625981x-1404829133.png "Blur"
+[canny]: http://chuantu.biz/t6/348/1532626000x-1404829133.png "Canny Transformation"
+[roi]: http://chuantu.biz/t6/348/1532626018x-1404829133.png "Region of Interest"
+[after_roi]: http://chuantu.biz/t6/348/1532626034x-1404829133.png "Apply Region of Interest"
+[hough]: http://chuantu.biz/t6/348/1532626053x-1404829133.png "Hough Transformation"
 
 ---
 
@@ -116,7 +116,7 @@ def draw_lines2(img, lines, color=[255, 0, 0], thickness=4):
 
 Here is the video:
 * Before Hough Transformation: https://youtu.be/rwV12XTlC2M
-* After Hough Transformation1: https://youtu.be/lKioHvaOwVw 
+* After Hough Transformation1: https://youtu.be/lKioHvaOwVw
 * After Hough Transformation2: https://youtu.be/nIZe8DGnJq0
 * Final Challenge: https://youtu.be/C36vlHwKwa4
 
